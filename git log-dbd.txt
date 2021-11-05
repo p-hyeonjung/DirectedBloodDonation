@@ -1,0 +1,131 @@
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd
+$ git init
+Initialized empty Git repository in C:/ai5/ws_frame/dbd/.git/
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git add .
+warning: LF will be replaced by CRLF in .classpath.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .project.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.jdt.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.m2e.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.wst.common.component.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.wst.common.project.facet.core.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.wst.validation.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.springframework.ide.eclipse.beans.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.springframework.ide.eclipse.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .springBeans.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/web/dbd/HomeController.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/log4j.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/webapp/WEB-INF/spring/root-context.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/webapp/WEB-INF/views/home.jsp.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/webapp/WEB-INF/web.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/resources/log4j.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/classes/log4j.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/m2e-wtp/web-resources/META-INF/maven/com.web/dbd/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/test-classes/log4j.xml.
+The file will have its original line endings in your working directory
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git commit -m "프로젝트 생성 및 기본설정"
+[master (root-commit) 0def4ab] 프로젝트 생성 및 기본설정
+ 31 files changed, 1164 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 .settings/org.eclipse.wst.common.component
+ create mode 100644 .settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 .settings/org.eclipse.wst.validation.prefs
+ create mode 100644 .settings/org.springframework.ide.eclipse.beans.core.prefs
+ create mode 100644 .settings/org.springframework.ide.eclipse.core.prefs
+ create mode 100644 .springBeans
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/web/dbd/HomeController.java
+ create mode 100644 src/main/resources/log4j.xml
+ create mode 100644 src/main/webapp/WEB-INF/lib/CKFinder-2.6.3.jar
+ create mode 100644 src/main/webapp/WEB-INF/lib/CKFinderPlugin-FileEditor-2.6.3.jar
+ create mode 100644 src/main/webapp/WEB-INF/lib/CKFinderPlugin-ImageResize-2.6.3.jar
+ create mode 100644 src/main/webapp/WEB-INF/lib/javax.mail.jar
+ create mode 100644 src/main/webapp/WEB-INF/lib/ojdbc6.jar
+ create mode 100644 src/main/webapp/WEB-INF/lib/thumbnailator-0.4.8.jar
+ create mode 100644 src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+ create mode 100644 src/main/webapp/WEB-INF/spring/root-context.xml
+ create mode 100644 src/main/webapp/WEB-INF/views/home.jsp
+ create mode 100644 src/main/webapp/WEB-INF/web.xml
+ create mode 100644 src/main/webapp/index.jsp
+ create mode 100644 src/test/resources/log4j.xml
+ create mode 100644 target/classes/com/web/dbd/HomeController.class
+ create mode 100644 target/classes/log4j.xml
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/com.web/dbd/pom.properties
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/com.web/dbd/pom.xml
+ create mode 100644 target/test-classes/log4j.xml
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git log
+commit 0def4ab224957d2a65c710178f40f01d95448c17 (HEAD -> master)
+Author: p-hyeonjung <phjung1811@gmail.com>
+Date:   Thu Nov 4 23:14:08 2021 +0900
+
+    프로젝트 생성 및 기본설정
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git remote add origin https://https://github.com/p-hyeonjung/DirectedBloodDonation.git
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git push origin master
+fatal: unable to access 'https://https://github.com/p-hyeonjung/DirectedBloodDonation.git/': Could not resolve host: https
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ ^C
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ ping github.com
+
+Pinging github.com [15.164.81.167] with 32 bytes of data:
+Reply from 15.164.81.167: bytes=32 time=10ms TTL=46
+Reply from 15.164.81.167: bytes=32 time=5ms TTL=46
+Reply from 15.164.81.167: bytes=32 time=6ms TTL=46
+Reply from 15.164.81.167: bytes=32 time=7ms TTL=46
+
+Ping statistics for 15.164.81.167:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 5ms, Maximum = 10ms, Average = 7ms
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git config --global --unset http.proxy
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git config --global --unset https.proxy
+
+msi@DESKTOP-B5QTQN2 MINGW64 /c/ai5/ws_frame/dbd (master)
+$ git push origin master
+fatal: unable to access 'https://https://github.com/p-hyeonjung/DirectedBloodDonation.git/': Could not resolve host: https
